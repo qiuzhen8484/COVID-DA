@@ -1,10 +1,9 @@
 # <center>COVID-DA: Deep Domain Adaptation from Typical Pneumonia to COVID-19</center>
-We provide PyTorch implementation for "**COVID-DA: Deep Domain Adaptation from
-Typical Pneumonia to COVID-19**".
+We will provide PyTorch implementation for "**COVID-DA: Deep Domain Adaptation from Typical Pneumonia to COVID-19**".
 
 # Paper
-[COVID-DA](...)
+The paper will be provided.
 
-# Datasets
-The datasets in this paper are available [here](http://suo.im/6d3jZF).
+# Dataset
+The dataset in this paper is available [here](http://suo.im/6d3jZF).
 
