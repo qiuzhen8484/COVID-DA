@@ -4,6 +4,7 @@ Typical Pneumonia to COVID-19**".
 
 # Paper
 [COVID-DA](...)
+
 Yifan Zhang, Shuaicheng Niu, Zhen Qiu, Ying Wei, Peilin Zhao, Jianhua Yao,
 Junzhou Huang, Qingyao Wu, and Mingkui Tan<sup>*</sup>
 
