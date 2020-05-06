@@ -22,10 +22,9 @@ all_data
     └── test
 ```
 
-- Statistics of the dataset are shown as follow:
-
+- Statistics of the dataset are shown as follow:\
 ![data statistic](data.png "statistics of the dataset")\
-  Pneumonia ("all_data_pneumonia" sub-directory) serves as the source domain and COVID-19 ("all_data_covid" sub-directory) serves as the target domain.
+Pneumonia ("all_data_pneumonia" sub-directory) serves as the source domain and COVID-19 ("all_data_covid" sub-directory) serves as the target domain.
 
 - You can refer to the [paper](https://arxiv.org/pdf/2005.01577.pdf) for more details about the dataset.
 
