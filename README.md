@@ -1,4 +1,4 @@
-# <center>COVID-DA: Deep Domain Adaptation from Typical Pneumonia to COVID-19</center>
+# < center>COVID-DA: Deep Domain Adaptation from Typical Pneumonia to COVID-19< /center>
 We provide the dataset for domain adaptation from typical pneumonia to COVID-19. The paper is available [here](https://arxiv.org/pdf/2005.01577.pdf).
 
 # Dataset
@@ -48,7 +48,7 @@ Pneumonia ("all_data_pneumonia" sub-directory) serves as the source domain and C
   ```
   For convenience, we provide `.pkl` files for both python 2 and 3, respectively.
 
-- According to the image lists, we provide an approach to load images using Pillow:
+- According to the image lists, you can load images using Pillow:
   ```
         # e.g., for the source domain Pneumonia
         for img_tup in train_list:
