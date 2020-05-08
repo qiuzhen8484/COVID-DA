@@ -33,18 +33,27 @@ Pneumonia ("all_data_pneumonia" sub-directory) serves as the source domain and C
   - for the source domain Pneumonia:
   ```
         with open('./data/pneumonia_task.pkl', 'rb') as f:
-            train_dict = pkl.load(f)
+            train_dict = pickle.load(f)
         train_list = train_dict['train_list'] # train sub-directory
         val_list = train_dict['val_list'] # test sub-directory
   ```
   - for the target domain COVID-19:
   ```
         with open('./data/COVID-19_task.pkl', 'rb') as f:
-            train_dict = pkl.load(f)
+            train_dict = pickle.load(f)
         train_list_label = train_dict['train_list_semi'] # labeled data (train sub-directory)
         train_list_unlabel = train_dict['train_list'] # unlabeled data (train sub-directory)
         val_list = train_dict['val_list'] # val sub-directory
         test_list = train_dict['test_list'] # test sub-directory
+  ```
+  For convenience, we provide `.pkl` files for both python 2 and 3, respectively.
+
+- According to the image lists, we provide an approach to load images using Pillow:
+  ```
+        # e.g., for the source domain Pneumonia
+        for img_tup in train_list:
+            img = PIL.Image.open(os.path.join('all_data/all_data_pneumonia', 'train', img_tup[0])
+            label = img_tup[1]
   ```
 
 # Citation
