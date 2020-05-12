@@ -4,7 +4,7 @@ We provide the dataset for domain adaptation from typical pneumonia to COVID-19.
 # Dataset
 The descriptions for the dataset are presented below. We first provide a link to download the dataset. Next, the data statistics and usage of the dataset will be introduced.
 ## Download
-- The dataset in this paper is available [here](http://suo.im/6d3jZF).
+- The dataset in this paper is available [here](https://drive.google.com/open?id=1naHhA1yHV9PZ8THz4js4l18PWLaeqv1X).
 
 ## Data structure and statistics
 - The data structure:
@@ -13,7 +13,7 @@ all_data
 └── all_data_pneumonia
 |   |
 |   ├── train
-|   └── test 
+|   └── val 
 |
 └── all_data_covid
     |
