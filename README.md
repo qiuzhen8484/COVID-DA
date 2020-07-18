@@ -1,8 +1,8 @@
 # <center>COVID-DA: Deep Domain Adaptation from <br> Typical Pneumonia to COVID-19</center>
-We provide the dataset for domain adaptation from typical pneumonia to COVID-19. The paper is available [here](https://arxiv.org/pdf/2005.01577.pdf).
+We provide the COVID-DA dataset for domain adaptation from typical pneumonia to COVID-19. The paper is available [here](https://arxiv.org/pdf/2005.01577.pdf).
 
 # Dataset
-The descriptions for the dataset are presented below. We first provide a link to download the dataset. Next, the data statistics and usage of the dataset will be introduced.
+The descriptions for the COVID-DA dataset are presented below. We first provide a link to download the dataset. Next, the data statistics and usage of the dataset will be introduced.
 ## Download
 - The dataset in this paper is available [here](https://drive.google.com/open?id=1naHhA1yHV9PZ8THz4js4l18PWLaeqv1X).
 
@@ -57,7 +57,7 @@ Pneumonia ("all_data_pneumonia" sub-directory) serves as the source domain and C
   ```
 
 # Citation
-If you find the dataset useful, please cite the following paper:
+If you find the COVID-DA dataset useful, please cite the following paper:
 ```
 @article{zhang2020covidda,
     title={COVID-DA: Deep Domain Adaptation from Typical Pneumonia to COVID-19},
