@@ -4,7 +4,7 @@ We provide the **COVID-DA** dataset for domain adaptation from typical pneumonia
 # Dataset
 The descriptions for the **COVID-DA** dataset are presented below. We first provide a link to download the dataset. Next, the data statistics and usage of the dataset will be introduced.
 ## Download
-- The dataset in this paper is available [here](https://drive.google.com/open?id=1naHhA1yHV9PZ8THz4js4l18PWLaeqv1X).
+- The dataset in this paper is available [here](https://drive.google.com/file/d/1w2brbYLn1s1hvmLkKKsBsm1mCbz4F512/view?usp=sharing).
 
 ## Data structure and statistics
 - The data structure:
