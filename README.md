@@ -6,7 +6,17 @@ The descriptions for the **COVID-DA** dataset are presented below. We first prov
 ## Download
 - The dataset in this paper is available [here](https://drive.google.com/file/d/1w2brbYLn1s1hvmLkKKsBsm1mCbz4F512/view?usp=sharing).
 
-## Data structure and statistics
+## Data Composition
+To make up this dataset, we collected and integrated the following open-source datasets:
+https://github.com/ieee8023/covid-chestxray-dataset
+https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data
+https://www.kaggle.com/darshan1504/covid19-detection-xray-dataset
+https://www.kaggle.com/andrewmvd/convid19-X-rays
+https://www.kaggle.com/nabeelsajid917/covid-19-x-ray-10000-images
+https://www.kaggle.com/usmantahirkiani/covid19-vs-healthy-xray
+https://www.kaggle.com/tarandeep97/covid19-normal-posteroanteriorpaxrays
+
+## Data Structure and Statistics
 - The data structure:
 ```
 all_data
