@@ -9,7 +9,7 @@ This repository provides the official implementation for "**COVID-DA: Deep Domai
 - Clone this repository:
 ```
 git clone https://github.com/qiuzhen8484/COVID-DA.git
-cd COVID-DA
+cd COVID-DA/code
 ```
 
 - Install the requirements by runing the following command:
