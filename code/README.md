@@ -1,5 +1,5 @@
 # <center>COVID-DA: Deep Domain Adaptation from Typical Pneumonia to COVID-19</center>
-This repository provides the official implementation for for "**COVID-DA: Deep Domain Adaptation from Typical Pneumonia to COVID-19**".
+This repository provides the official implementation for "**COVID-DA: Deep Domain Adaptation from Typical Pneumonia to COVID-19**".
 
 # Paper
 [COVID-DA: Deep Domain Adaptation from Typical Pneumonia to COVID-19](https://arxiv.org/abs/2005.01577).
@@ -31,7 +31,7 @@ python main --gpu 0,1 --batchsize 16 --epoch 200 --path_source all_data_pneumoni
 ## Testing 
 To test COVID-DA on the COVID-19 dataset using a well-trained model (please modify the argument "model_path"), run the following command:
 ```
-python test-only --gpu 0,1 --batchsize 16 --model_path ./model_checkpoint/trained_best_model.pkl --path_target all_data_covid
+python test_only --gpu 0,1 --batchsize 16 --model_path ./model_checkpoint/trained_best_model.pkl --path_target all_data_covid
 ```
 
 # Citation
