@@ -29,7 +29,7 @@ python main --gpu 0,1 --batchsize 16 --epoch 200 --path_source all_data_pneumoni
 ```
 
 ## Testing 
-To test COVID-DA on the COVID-19 dataset using a well-trained model (please modify the argument "model_path"), run the following command:
+- To test COVID-DA on the COVID-19 dataset using a well-trained model (please modify the argument "model_path"), run the following command:
 ```
 python test_only --gpu 0,1 --batchsize 16 --model_path ./model_checkpoint/trained_best_model.pkl --path_target all_data_covid
 ```
