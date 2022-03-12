@@ -1,7 +1,7 @@
 numpy==1.19.2
 torch==1.1.0
 tensorboardX==2.1
-Pillow==6.0.0
+Pillow==9.0.1
 scikit-learn==0.19.2
 pickle==4.0
 scipy==1.1.0
